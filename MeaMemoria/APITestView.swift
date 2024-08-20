@@ -34,8 +34,6 @@ struct APITestView: View {
                             Text(project.status)
                                 .padding(.bottom)
                             
-                            
-
                         }
                     }
                     .padding()

@@ -11,7 +11,7 @@ import SwiftUI
 struct MeaMemoriaApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            MainScreen()
         }
     }
 }

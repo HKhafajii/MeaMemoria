@@ -8,28 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		62456A532C09A8C700DDCC1F /* MeaMemoriaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62456A522C09A8C700DDCC1F /* MeaMemoriaApp.swift */; };
-		62456A552C09A8C700DDCC1F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62456A542C09A8C700DDCC1F /* MainView.swift */; };
+		62456A552C09A8C700DDCC1F /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62456A542C09A8C700DDCC1F /* MainScreen.swift */; };
 		62456A572C09A8C900DDCC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62456A562C09A8C900DDCC1F /* Assets.xcassets */; };
 		62456A5A2C09A8C900DDCC1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62456A592C09A8C900DDCC1F /* Preview Assets.xcassets */; };
-		62456A622C09A93C00DDCC1F /* CreatePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62456A612C09A93C00DDCC1F /* CreatePage.swift */; };
 		62456A642C0C1FD400DDCC1F /* APITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62456A632C0C1FD400DDCC1F /* APITestView.swift */; };
 		62456A662C0C1FF600DDCC1F /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62456A652C0C1FF600DDCC1F /* APIModel.swift */; };
 		6267E8322C20F73200F8256F /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8312C20F73200F8256F /* CarouselView.swift */; };
 		6267E8342C29D1F200F8256F /* Mangabey.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6267E8332C29D1F200F8256F /* Mangabey.otf */; };
+		6267E8392C2B317600F8256F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8382C2B317600F8256F /* Extensions.swift */; };
+		6267E83B2C2B31F500F8256F /* AlbumScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E83A2C2B31F500F8256F /* AlbumScrollView.swift */; };
+		6267E83D2C2B42FA00F8256F /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E83C2C2B42FA00F8256F /* CreateScreen.swift */; };
+		6267E8412C2B514300F8256F /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8402C2B514300F8256F /* ImageUtility.swift */; };
+		6267E8432C2B591900F8256F /* RecordingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8422C2B591900F8256F /* RecordingViewModel.swift */; };
+		6267E8452C2B593D00F8256F /* RecordingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8442C2B593D00F8256F /* RecordingModel.swift */; };
+		6267E8472C2B595A00F8256F /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8462C2B595900F8256F /* AudioManager.swift */; };
+		6267E84B2C2C9DEC00F8256F /* AlbumSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E84A2C2C9DEC00F8256F /* AlbumSelectionScreen.swift */; };
+		6267E84E2C2CA3CB00F8256F /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E84D2C2CA3CB00F8256F /* ImagePickerView.swift */; };
+		6267E8502C2CA48400F8256F /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E84F2C2CA48400F8256F /* RecordView.swift */; };
+		6267E8522C3434ED00F8256F /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8512C3434ED00F8256F /* Form.swift */; };
+		6267E8542C34371700F8256F /* MemoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8532C34371700F8256F /* MemoryModel.swift */; };
+		6267E8562C36EBAA00F8256F /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267E8552C36EBAA00F8256F /* ShimmerView.swift */; };
+		62DC9C9B2C6E3891006C86BC /* NewAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC9C9A2C6E3891006C86BC /* NewAlbumView.swift */; };
+		62DC9C9D2C737A17006C86BC /* AlbumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC9C9C2C737A17006C86BC /* AlbumScreen.swift */; };
+		62DC9C9F2C7381E1006C86BC /* MemoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC9C9E2C7381E1006C86BC /* MemoryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62456A4F2C09A8C700DDCC1F /* MeaMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeaMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62456A522C09A8C700DDCC1F /* MeaMemoriaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaMemoriaApp.swift; sourceTree = "<group>"; };
-		62456A542C09A8C700DDCC1F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		62456A542C09A8C700DDCC1F /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		62456A562C09A8C900DDCC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62456A592C09A8C900DDCC1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		62456A612C09A93C00DDCC1F /* CreatePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePage.swift; sourceTree = "<group>"; };
 		62456A632C0C1FD400DDCC1F /* APITestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITestView.swift; sourceTree = "<group>"; };
 		62456A652C0C1FF600DDCC1F /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		6267E8312C20F73200F8256F /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		6267E8332C29D1F200F8256F /* Mangabey.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mangabey.otf; sourceTree = "<group>"; };
 		6267E8352C29D23000F8256F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6267E8382C2B317600F8256F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6267E83A2C2B31F500F8256F /* AlbumScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumScrollView.swift; sourceTree = "<group>"; };
+		6267E83C2C2B42FA00F8256F /* CreateScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
+		6267E8402C2B514300F8256F /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
+		6267E8422C2B591900F8256F /* RecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewModel.swift; sourceTree = "<group>"; };
+		6267E8442C2B593D00F8256F /* RecordingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingModel.swift; sourceTree = "<group>"; };
+		6267E8462C2B595900F8256F /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		6267E84A2C2C9DEC00F8256F /* AlbumSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumSelectionScreen.swift; sourceTree = "<group>"; };
+		6267E84D2C2CA3CB00F8256F /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		6267E84F2C2CA48400F8256F /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		6267E8512C3434ED00F8256F /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		6267E8532C34371700F8256F /* MemoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryModel.swift; sourceTree = "<group>"; };
+		6267E8552C36EBAA00F8256F /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
+		62DC9C9A2C6E3891006C86BC /* NewAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlbumView.swift; sourceTree = "<group>"; };
+		62DC9C9C2C737A17006C86BC /* AlbumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumScreen.swift; sourceTree = "<group>"; };
+		62DC9C9E2C7381E1006C86BC /* MemoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +92,17 @@
 		62456A512C09A8C700DDCC1F /* MeaMemoria */ = {
 			isa = PBXGroup;
 			children = (
+				6267E83F2C2B513800F8256F /* ViewModels */,
+				6267E83E2C2B512B00F8256F /* Models */,
 				6267E8352C29D23000F8256F /* Info.plist */,
-				62456A602C09A92000DDCC1F /* Views */,
+				6267E8332C29D1F200F8256F /* Mangabey.otf */,
+				6267E8382C2B317600F8256F /* Extensions.swift */,
+				62456A602C09A92000DDCC1F /* Screens */,
 				62456A522C09A8C700DDCC1F /* MeaMemoriaApp.swift */,
 				62456A562C09A8C900DDCC1F /* Assets.xcassets */,
 				62456A582C09A8C900DDCC1F /* Preview Content */,
 				62456A632C0C1FD400DDCC1F /* APITestView.swift */,
+				6267E8512C3434ED00F8256F /* Form.swift */,
 				62456A652C0C1FF600DDCC1F /* APIModel.swift */,
 			);
 			path = MeaMemoria;
@@ -81,13 +116,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		62456A602C09A92000DDCC1F /* Views */ = {
+		62456A602C09A92000DDCC1F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				62456A612C09A93C00DDCC1F /* CreatePage.swift */,
-				62456A542C09A8C700DDCC1F /* MainView.swift */,
-				6267E8332C29D1F200F8256F /* Mangabey.otf */,
+				6267E84C2C2CA2DC00F8256F /* Views */,
+				62456A542C09A8C700DDCC1F /* MainScreen.swift */,
+				6267E83C2C2B42FA00F8256F /* CreateScreen.swift */,
+				6267E84A2C2C9DEC00F8256F /* AlbumSelectionScreen.swift */,
+				62DC9C9C2C737A17006C86BC /* AlbumScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6267E83E2C2B512B00F8256F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6267E8442C2B593D00F8256F /* RecordingModel.swift */,
+				6267E8532C34371700F8256F /* MemoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6267E83F2C2B513800F8256F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6267E8402C2B514300F8256F /* ImageUtility.swift */,
+				6267E8422C2B591900F8256F /* RecordingViewModel.swift */,
+				6267E8462C2B595900F8256F /* AudioManager.swift */,
+				62DC9C9E2C7381E1006C86BC /* MemoryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6267E84C2C2CA2DC00F8256F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6267E83A2C2B31F500F8256F /* AlbumScrollView.swift */,
 				6267E8312C20F73200F8256F /* CarouselView.swift */,
+				6267E84D2C2CA3CB00F8256F /* ImagePickerView.swift */,
+				6267E84F2C2CA48400F8256F /* RecordView.swift */,
+				6267E8552C36EBAA00F8256F /* ShimmerView.swift */,
+				62DC9C9A2C6E3891006C86BC /* NewAlbumView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,12 +232,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62456A622C09A93C00DDCC1F /* CreatePage.swift in Sources */,
+				6267E83D2C2B42FA00F8256F /* CreateScreen.swift in Sources */,
+				6267E8452C2B593D00F8256F /* RecordingModel.swift in Sources */,
 				62456A642C0C1FD400DDCC1F /* APITestView.swift in Sources */,
-				62456A552C09A8C700DDCC1F /* MainView.swift in Sources */,
+				6267E8432C2B591900F8256F /* RecordingViewModel.swift in Sources */,
+				6267E84E2C2CA3CB00F8256F /* ImagePickerView.swift in Sources */,
+				6267E8392C2B317600F8256F /* Extensions.swift in Sources */,
+				6267E8562C36EBAA00F8256F /* ShimmerView.swift in Sources */,
+				6267E83B2C2B31F500F8256F /* AlbumScrollView.swift in Sources */,
+				6267E84B2C2C9DEC00F8256F /* AlbumSelectionScreen.swift in Sources */,
+				6267E8472C2B595A00F8256F /* AudioManager.swift in Sources */,
+				6267E8542C34371700F8256F /* MemoryModel.swift in Sources */,
+				6267E8522C3434ED00F8256F /* Form.swift in Sources */,
+				62DC9C9B2C6E3891006C86BC /* NewAlbumView.swift in Sources */,
+				62456A552C09A8C700DDCC1F /* MainScreen.swift in Sources */,
+				62DC9C9F2C7381E1006C86BC /* MemoryViewModel.swift in Sources */,
 				62456A532C09A8C700DDCC1F /* MeaMemoriaApp.swift in Sources */,
 				6267E8322C20F73200F8256F /* CarouselView.swift in Sources */,
 				62456A662C0C1FF600DDCC1F /* APIModel.swift in Sources */,
+				62DC9C9D2C737A17006C86BC /* AlbumScreen.swift in Sources */,
+				6267E8502C2CA48400F8256F /* RecordView.swift in Sources */,
+				6267E8412C2B514300F8256F /* ImageUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +390,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeaMemoria/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +422,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeaMemoria/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

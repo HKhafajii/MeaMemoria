@@ -9,7 +9,7 @@ import Foundation
 
 
 struct Project: Codable, Hashable, Identifiable {
-    let id = UUID()
+    var id = UUID()
     let name: String
     let comments: String
     let status: String
