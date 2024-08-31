@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MainScreen: View {
     let images: [String] = ["image1", "image2", "image3"]
+    @State private var size = 0.5
+    @State private var opacity = 0.4
     var body: some View {
         
         NavigationStack {
@@ -35,6 +37,7 @@ struct MainScreen: View {
                     
                     CarouselView()
                         .shadow(radius: 10, x: 0, y: 10)
+                       
                     
                     AlbumScrollView()
                     
@@ -58,6 +61,12 @@ struct MainScreen: View {
                         .shadow(radius: 10, x: 0, y: 10)
                         
                     } // end of navigation link
+                    .onAppear {
+                        withAnimation(.easeIn(duration: 1.2)) {
+                            size = 1
+                            opacity = 1.0
+                        }
+                    }
                     
                     .padding()
                     

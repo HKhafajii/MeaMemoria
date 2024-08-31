@@ -9,7 +9,6 @@ protocol MemoryServiceProtocol {
 }
 
 
-
 class MemoryService: MemoryServiceProtocol {
 
      var memories: [MemoryModel] = []
@@ -39,8 +38,6 @@ class MemoryService: MemoryServiceProtocol {
         }
     }
 }
-
-
 
 class MemoryViewModel: ObservableObject {
 
