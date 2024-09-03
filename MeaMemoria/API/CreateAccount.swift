@@ -24,32 +24,33 @@ struct CreateAccount: View {
                         TextField("First name...", text: $account.account.first_name)
                             .foregroundStyle(.darkBrown)
                             .padding(.leading, 1)
-                            .padding(5)
+                            .padding(8)
                             .background(RoundedRectangle(cornerRadius: 12).fill(.white))
                         
                         TextField("Last name...", text: $account.account.last_name)
                             .foregroundStyle(.darkBrown)
                             .padding(.leading, 1)
-                            .padding(5)
+                            .padding(8)
                             .background(RoundedRectangle(cornerRadius: 12).fill(.white))
                         
                         TextField("Email address...", text: $account.account.email)
                             .foregroundStyle(.darkBrown)
                             .padding(.leading, 1)
-                            .padding(5)
+                            .padding(8)
                             .background(RoundedRectangle(cornerRadius: 12).fill(.white))
                         
                         TextField("Username...", text: $account.account.username)
                             .foregroundStyle(.darkBrown)
                             .padding(.leading, 1)
-                            .padding(5)
+                            .padding(8)
                             .background(RoundedRectangle(cornerRadius: 12).fill(.white))
                         
                         SecureField("Password...", text: $account.account.password)
                             .foregroundStyle(.darkBrown)
                             .padding(.leading, 1)
-                            .padding(5)
+                            .padding(8)
                             .background(RoundedRectangle(cornerRadius: 12).fill(.white))
+                        
                     }// end of create stack
                     .padding()
                     .padding(.bottom)
@@ -78,14 +79,8 @@ struct CreateAccount: View {
                     } label: {
                         Text("Already have an account?")
                     }
-                    
-                    
-                    
-                    
                     .padding()
                 }
-                
-                
             }
         }
     }
@@ -94,7 +89,6 @@ struct CreateAccount: View {
 #Preview {
     CreateAccount(account: AccountViewModel.init())
 }
-
 
 struct BackGround: View {
     var body: some View {
