@@ -62,7 +62,7 @@ final class NetworkManager: ObservableObject {
             return
         }
         
-        let accountData = accountViewModel.account
+        var accountData = accountViewModel.account
         
     }
 }
