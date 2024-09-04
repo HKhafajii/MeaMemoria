@@ -8,55 +8,16 @@
 import SwiftUI
 
 struct CreateAccount: View {
-    @StateObject var account: AccountViewModel
+    
+    @StateObject var manager = NetworkManager.shared
     var body: some View {
         NavigationStack {
             ZStack {
                 BackGround()
                 VStack {
-                    
-                    VStack(spacing: 20) {
-                        Text("Create an account")
-                            .foregroundStyle(.offWhite)
-                            .font(.title)
-                            .shadow(radius: 10, x: 0, y: 10)
-                        
-                        TextField("First name...", text: $account.account.first_name)
-                            .foregroundStyle(.darkBrown)
-                            .padding(.leading, 1)
-                            .padding(8)
-                            .background(RoundedRectangle(cornerRadius: 12).fill(.white))
-                        
-                        TextField("Last name...", text: $account.account.last_name)
-                            .foregroundStyle(.darkBrown)
-                            .padding(.leading, 1)
-                            .padding(8)
-                            .background(RoundedRectangle(cornerRadius: 12).fill(.white))
-                        
-                        TextField("Email address...", text: $account.account.email)
-                            .foregroundStyle(.darkBrown)
-                            .padding(.leading, 1)
-                            .padding(8)
-                            .background(RoundedRectangle(cornerRadius: 12).fill(.white))
-                        
-                        TextField("Username...", text: $account.account.username)
-                            .foregroundStyle(.darkBrown)
-                            .padding(.leading, 1)
-                            .padding(8)
-                            .background(RoundedRectangle(cornerRadius: 12).fill(.white))
-                        
-                        SecureField("Password...", text: $account.account.password)
-                            .foregroundStyle(.darkBrown)
-                            .padding(.leading, 1)
-                            .padding(8)
-                            .background(RoundedRectangle(cornerRadius: 12).fill(.white))
-                        
-                    }// end of create stack
-                    .padding()
-                    .padding(.bottom)
-                    .background(RoundedRectangle(cornerRadius: 8).fill(.darkBrown))
-                    .shadow(radius: 10, x: 0, y: 10)
-                    .padding()
+                
+                    AccountCreate(account: AccountViewModel.init())
+                        .padding(.top)
                     
                     NavigationLink {
                         APITestView()
@@ -87,7 +48,7 @@ struct CreateAccount: View {
 }
 
 #Preview {
-    CreateAccount(account: AccountViewModel.init())
+    CreateAccount()
 }
 
 struct BackGround: View {
@@ -104,5 +65,54 @@ struct BackGround: View {
                 .offset(y: -320)
                 .shadow(radius: 10, x: 0, y: 10)
         }
+    }
+}
+
+
+struct AccountCreate: View {
+    @StateObject var account: AccountViewModel
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("Create an account")
+                .foregroundStyle(.offWhite)
+                .font(.title)
+                .shadow(radius: 10, x: 0, y: 10)
+            
+            TextField("First name...", text: $account.account.first_name)
+                .foregroundStyle(.darkBrown)
+                .padding(.leading, 1)
+                .padding(8)
+                .background(RoundedRectangle(cornerRadius: 12).fill(.white))
+            
+            TextField("Last name...", text: $account.account.last_name)
+                .foregroundStyle(.darkBrown)
+                .padding(.leading, 1)
+                .padding(8)
+                .background(RoundedRectangle(cornerRadius: 12).fill(.white))
+            
+            TextField("Email address...", text: $account.account.email)
+                .foregroundStyle(.darkBrown)
+                .padding(.leading, 1)
+                .padding(8)
+                .background(RoundedRectangle(cornerRadius: 12).fill(.white))
+            
+            TextField("Username...", text: $account.account.username)
+                .foregroundStyle(.darkBrown)
+                .padding(.leading, 1)
+                .padding(8)
+                .background(RoundedRectangle(cornerRadius: 12).fill(.white))
+            
+            SecureField("Password...", text: $account.account.password)
+                .foregroundStyle(.darkBrown)
+                .padding(.leading, 1)
+                .padding(8)
+                .background(RoundedRectangle(cornerRadius: 12).fill(.white))
+            
+        }// end of create stack
+        .padding()
+        .padding(.bottom)
+        .background(RoundedRectangle(cornerRadius: 8).fill(.darkBrown))
+        .shadow(radius: 10, x: 0, y: 10)
+        .padding()
     }
 }

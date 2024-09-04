@@ -32,6 +32,7 @@
 		6269795B2C82085A00E8D4AA /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6269795A2C82085A00E8D4AA /* CreateAccount.swift */; };
 		6269795D2C820A1300E8D4AA /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6269795C2C820A1300E8D4AA /* AccountViewModel.swift */; };
 		6269795F2C820B0700E8D4AA /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6269795E2C820B0700E8D4AA /* AccountModel.swift */; };
+		62952F8A2C874D5A0077AD48 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62952F892C874D5A0077AD48 /* NetworkManager.swift */; };
 		62DC9C9B2C6E3891006C86BC /* NewAlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC9C9A2C6E3891006C86BC /* NewAlbumView.swift */; };
 		62DC9C9D2C737A17006C86BC /* AlbumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC9C9C2C737A17006C86BC /* AlbumScreen.swift */; };
 		62DC9C9F2C7381E1006C86BC /* MemoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC9C9E2C7381E1006C86BC /* MemoryViewModel.swift */; };
@@ -65,6 +66,7 @@
 		6269795A2C82085A00E8D4AA /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		6269795C2C820A1300E8D4AA /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		6269795E2C820B0700E8D4AA /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		62952F892C874D5A0077AD48 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		62DC9C9A2C6E3891006C86BC /* NewAlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlbumView.swift; sourceTree = "<group>"; };
 		62DC9C9C2C737A17006C86BC /* AlbumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumScreen.swift; sourceTree = "<group>"; };
 		62DC9C9E2C7381E1006C86BC /* MemoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewModel.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				6269795A2C82085A00E8D4AA /* CreateAccount.swift */,
 				6269795C2C820A1300E8D4AA /* AccountViewModel.swift */,
 				6269795E2C820B0700E8D4AA /* AccountModel.swift */,
+				62952F892C874D5A0077AD48 /* NetworkManager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				6267E8542C34371700F8256F /* MemoryModel.swift in Sources */,
 				6267E8522C3434ED00F8256F /* Form.swift in Sources */,
 				62DC9C9B2C6E3891006C86BC /* NewAlbumView.swift in Sources */,
+				62952F8A2C874D5A0077AD48 /* NetworkManager.swift in Sources */,
 				62456A552C09A8C700DDCC1F /* MainScreen.swift in Sources */,
 				62DC9C9F2C7381E1006C86BC /* MemoryViewModel.swift in Sources */,
 				62456A532C09A8C700DDCC1F /* MeaMemoriaApp.swift in Sources */,

@@ -67,7 +67,6 @@ struct MainScreen: View {
                             opacity = 1.0
                         }
                     }
-                    
                     .padding()
                     
                 } // End of Vstack
